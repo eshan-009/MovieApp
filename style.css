@@ -23,7 +23,7 @@ nav{
  justify-content: space-between;
  align-items: center;
  padding-left: 1rem;
- padding-right: 1.5rem;
+ padding-right: 1rem;
 
 }
 
@@ -155,6 +155,7 @@ padding-bottom: rem;
 
 }
 .like{
+    width: 2.2rem;
     padding-left: 1rem;
     margin-top: 0.2rem;
 }
@@ -183,9 +184,15 @@ padding-bottom: rem;
     left: 1rem;
     color: white;
 }
+
 [myProfile]{
+    object-fit: cover;
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 100%;
     cursor: pointer;
 }
+
 @media (max-width:650px){
     .searchinput{
         width: 20rem;
@@ -196,10 +203,10 @@ padding-bottom: rem;
 }
 @media (max-width:540px){
     .searchinput{
-        width: 10rem;
+        width: 9rem;
     }
     [searchResult]{
-        width: 10.5rem;
+        width: 9.5rem;
     }
 }
 @media (max-width:360px){
